@@ -1,3 +1,4 @@
+
 #Sample Feature Definition Template
 @tag
 Feature: To test add tariff plan functionality

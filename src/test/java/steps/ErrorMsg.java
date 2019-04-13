@@ -36,11 +36,11 @@ public class ErrorMsg {
 
 	@Then("the user should see error message")
 	public void the_user_should_see_error_message() {
-	    Assert.assertTrue(driver.findElement(By.id("fname")).isDisplayed());
-	    Assert.assertTrue(driver.findElement(By.id("lname")).isDisplayed());
-	    Assert.assertTrue(driver.findElement(By.id("email")).isDisplayed());
-	    Assert.assertTrue(driver.findElement(By.name("addr")).isDisplayed());
-	    Assert.assertTrue(driver.findElement(By.id("telephoneno")).isDisplayed());
+	    Assert.assertTrue(driver.findElement(By.id("fname")).getText(),true);
+	    Assert.assertTrue(driver.findElement(By.id("lname")).getText(),true);
+	    Assert.assertTrue(driver.findElement(By.id("email")).getText(),true);
+	    Assert.assertTrue(driver.findElement(By.name("addr")).getText(),true);
+	    Assert.assertTrue(driver.findElement(By.id("telephoneno")).getText(),true);
 	}
 
 }

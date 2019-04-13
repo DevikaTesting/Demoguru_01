@@ -30,7 +30,6 @@ public class TariffInvalid extends Base{
 	@Then("the user see invalid input labels")
 	public void the_user_see_invalid_input_labels() {
 		Assert.assertEquals(driver.switchTo().alert().getText(),"please fill all fields Correct Value");
-		
 	}
 	
 }

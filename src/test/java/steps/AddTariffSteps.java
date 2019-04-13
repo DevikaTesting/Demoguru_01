@@ -39,7 +39,7 @@ public class AddTariffSteps extends Base {
 
 	@Then("The user should see the success message")
 	public void the_user_should_see_the_success_message() {
-		Assert.assertTrue(true);
+		Assert.assertEquals(driver.findElement(By.tagName("h2")).getText(),"Congratulation you add Tariff Plan");
 	}
 	
 	

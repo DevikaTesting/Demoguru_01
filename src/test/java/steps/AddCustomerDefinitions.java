@@ -22,7 +22,7 @@ public class AddCustomerDefinitions extends Base {
 		List<String> cust = customerDetails.asList(String.class);
 		System.out.println(cust);
 		Thread.sleep(2000);
-		// driver.findElement(By.xpath("//label[text()='Done']")).click();
+		driver.findElement(By.xpath("//label[text()='Done']")).click();
 		driver.findElement(By.id("fname")).sendKeys(cust.get(0));
 		driver.findElement(By.id("lname")).sendKeys(cust.get(1));
 		driver.findElement(By.id("email")).sendKeys(cust.get(2));
