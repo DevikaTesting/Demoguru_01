@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Base {
 	public static WebDriver driver;
 public WebDriver getDriver() {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\eclipse-workspace\\Excel\\driver\\chromedriver_win32 (2)\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\KASTHURI\\Downloads\\chromedriver.exe");
     return driver=new ChromeDriver();
 
 }
